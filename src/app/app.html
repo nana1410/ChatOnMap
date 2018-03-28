@@ -1,0 +1,7 @@
+<ion-split-pane>
+  <!-- side navigation -->
+  <ion-menu side="right" [content]="content"></ion-menu>
+
+  <!-- main contents -->
+  <ion-nav #content main swipeBackEnabled="false" [root]="rootPage"></ion-nav>
+</ion-split-pane>

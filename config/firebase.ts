@@ -1,4 +1,4 @@
-import { Firebase } from '@ionic-native/firebase';
+import * as firebase from 'firebase';
 
 export const firebase = {
   'apiKey': 'AIzaSyCE2meL9-CIBqBt1mDGRQX2oQXFDWYSxTw',
